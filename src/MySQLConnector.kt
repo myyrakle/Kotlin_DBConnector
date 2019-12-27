@@ -2,7 +2,7 @@ import java.sql.Connection
 import java.sql.DriverManager
 import java.sql.SQLException
 
-class MySQLConnector : IDBConnector {
+class MySQLConnector : SQLDBConnector {
     override var connection: Connection? = null
         private set
 
