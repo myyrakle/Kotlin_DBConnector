@@ -1,6 +1,6 @@
 import java.sql.Connection
 
-interface IDBConnector
+interface SQLDBConnector
 {
     fun connect()
     fun disconnect()
